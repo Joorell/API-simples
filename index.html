@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <link rel="stylesheet" href="style.css">
+
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto CDN Simples</title>
+    <!-- CDN do React e ReactDOM -->
+    <script src="https://unpkg.com/react@18/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorigin></script>
+    <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+</head>
+<body>
+    <!-- Aqui o React irá renderizar o conteúdo -->
+    <div id="root"></div>
+
+    <script type="text/babel">
+        // Criando um componente React
+        function App() {
+            return (
+                <div>
+
+                    <h1 style={{ color: "yelow" }}>Olá, mundo. Me chamo Jorel, <br /><br />Espero muita experiências e decobertas!
+                        
+                        
+                        <br /><br />tenho 28 anos, moro na cidade de Curitiba PR
+
+
+                        <br /><br />Minha meta é aprender o maximo em ciencias da computação e criar alguns projetos inovadores e de destaque nacional e internacional.
+                        </h1>
+                    <p>Este é um projeto simples usando CDN.</p><br /><br /><br /><br /><br /><br />
+                    <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /> 
+                    clique com botao direito do mouse, para ver a estrutura/ codigo fonte!
+                    <br /><br />  ©   2025 Curitiba,05/03  todos os direitos reservados.  ©
+                </div>
+            );
+        }
+
+        // Renderizando o componente na página
+        const rootElement = document.getElementById("root");
+        ReactDOM.createRoot(rootElement).render(<App />);
+    </script>
+</body>
+</html>

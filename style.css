@@ -1,0 +1,16 @@
+body {
+    background-image: url('background.jpg'); /* Usando a imagem local */
+    background-size: cover; /* Faz a imagem cobrir a tela inteira */
+    background-position: center; /* Centraliza a imagem */
+    height: 100vh; /* Ocupa a altura total da tela */
+    margin: 0; /* Remove as margens padrão do navegador */
+    display: flex; /* Ativa o flexbox */
+    justify-content: center; /* Centraliza o conteúdo */
+    align-items: center; /* Centraliza verticalmente */
+    text-align: center; /* Deixa o texto alinhado ao centro */
+    color: rgb(72, 255, 0); /* Deixa o texto branco */
+    h1 {
+        text-shadow: 2px 2px 5px rgb(0, 0, 0); /* Sombra preta suave */
+    }
+    
+}
